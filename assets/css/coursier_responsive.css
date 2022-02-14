@@ -1,0 +1,247 @@
+@media screen and (max-width : 700px){
+    #accueil-coursier > div, #accueil-coursier img{
+        margin: auto;
+        padding: 0 15px;
+    }
+    #accueil-coursier img{
+        width: 90%;
+        margin-top: 10px;
+    }
+    #accueil-coursier > div{
+        width: 80%;
+    }
+    #accueil-coursier h2{
+        text-align: center;
+    }
+    #accueil-coursier{
+        padding-bottom: 20px;
+        background-attachment: initial !important;
+    }
+    #accueil-coursier::after{
+        display: none;
+    }
+    /* BESOIN/DETAIL COURSIER */
+    #detail-coursier{
+        margin-top: 10px;
+    }
+    .besoin_coursier, #form_coursier{
+        width: 70%;
+        margin: 20px;
+        padding: 15px 25px;
+    }
+    .besoin_coursier h4{
+        font-size: 24px;
+    }
+    .besoin_coursier li{
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    /* FORMULAIRE COURSIER */
+    #form_coursier h4{
+        font-size: 26px;
+    }
+    #form_coursier input:not(input[type='radio']){
+        width: 42%;
+    }
+    #form_coursier input:not(input[type='radio']), #form_coursier select{
+        height: 30px;
+    }
+    /* AVANTAGES */
+    #avantages{
+        margin: 70px 0 0 0 !important;
+        padding: 20px 10px 30px 10px;
+        background: linear-gradient(90deg, rgba(0,14,34,1) 3%, rgba(17,63,113,1) 50%, rgba(0,14,34,1) 97%);
+    }
+    #avantages::before{
+        height: 50px;
+        top: -49px;
+        background: linear-gradient(90deg, rgba(0,14,34,1) 3%, rgba(17,63,113,1) 50%, rgba(0,14,34,1) 97%);
+    }
+    #avantages h2{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    #avantages div div{
+        width: 75% !important;
+    }
+    #avantages p:first-of-type{
+        cursor: pointer;
+    }
+    #avantages .fa-chevron-down{
+        display: inline-block;
+    }
+    #avantages div div p:last-of-type{
+        display: none;
+    }
+    /* SECTION CSM */
+    #csm h2{
+        font-size: 26px;
+        margin: 0 auto 15px auto;
+    }
+    #csm h2::after{
+        height: 12px;
+    }
+    #csm > div{
+        padding: 0 10px !important;
+    }
+    #ul_csm li{
+        margin: 10px !important;
+    }
+    #csm li img{
+        width: 20px;
+    }
+    #csm li.active img{
+        width: 30px;
+    }
+    #csm > div > img{
+        width: 100% !important;
+    }
+    #csm h4{
+        font-size: 15px;
+    }
+    #csm li.active h4{
+        font-size: 20px;
+    }
+    #detail_csm{
+        width: 90% !important;
+    }
+    #detail_csm div{
+        font-size: 15px;
+    }
+    #detail_csm::before{
+        background-size: 40px 40px;
+        top: -50px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+        transform: rotateX(0deg) rotateZ(90deg);
+    }
+    #avantages::before{
+        clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%) !important;
+        height: 400px !important;
+        top: -399px !important;
+    }
+}
+@media screen and (max-width : 900px){
+    #accueil-coursier h2{
+        font-size: 26px;
+    }
+    #accueil-coursier button{
+        font-size: 18px;
+        height: 34px;
+        padding: 0 15px;
+    }
+    #accueil-coursier button::after{
+        top: calc(50% - 8px);
+    }
+    /* AVANTAGES */
+    #avantages > div{
+        margin-bottom: 0;
+    }
+    #avantages div div:not(.before_assist){
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    #avantages div div p:first-of-type, #avantages div div p:last-of-type{
+        text-align: center;
+    }
+    #avantages::before{
+        height: 500px;
+        top: -499px;
+    }
+}
+@media screen and (min-width : 901px) and (max-width : 1050px){
+    #accueil-coursier h2{
+        font-size: 33px;
+    }
+}
+@media screen and (max-width : 1050px){
+    #accueil-coursier{
+        background: url(../img/noir-bleu_min.jpg);
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        overflow: visible;
+    }
+    #accueil-coursier::after{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0%);
+        background: url(../img/noir-bleu_min.jpg);
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        width: 100%;
+        height: 80px;
+        bottom: -79px;
+        border-radius: 0;
+        transform: none;
+        top: auto;
+    }
+    .accueil-coursier_before::before{
+        display: none;
+    }
+    /* SECTION CSM */
+    #csm{
+        margin-top: 25px;
+    }
+    #csm > div{
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    #ul_csm{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #ul_csm li{
+        margin: 25px 10px;
+    }
+    #csm > div > img {
+        width: 50%;
+    }
+    #detail_csm{
+        width: 40%;
+    }
+    /* AVANTAGES */
+    #avantages{
+        margin-top: 30px;
+    }
+    #avantages::before{
+        clip-path: polygon(0 65%, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@media screen and (min-width : 1051px) and (max-width : 1200px){
+    .accueil-coursier_before::before{
+        transform: skew(-18deg, 0) translateX(-26%);
+    }
+}
+
+@media screen and (min-width : 1350px){
+    #csm > div{
+        padding: 0 20px 0 80px;
+    }
+    #csm > div > img{
+        width: 30%;
+    }
+}
+@media screen and (min-width : 1400px) and (max-width : 1600px){
+    #avantages::before{
+        height: 650px;
+        top: -650px;
+    }
+}
+@media screen and (min-width : 1601px){
+    #avantages::before{
+        height: 750px;
+        top: -750px;
+    }
+    #csm h4{
+        font-size: 22px;
+    }
+    #csm li.active h4{
+        font-size: 30px;
+    }
+    #detail_csm div{
+        font-size: 22px;
+    }
+}
